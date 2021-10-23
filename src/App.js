@@ -6,7 +6,7 @@ export default class App extends Component {
     super(props);
     this.state = {};
     this.state.loading = false;
-    this.state.votes = 0;
+    this.state.votes = 99;
     this.saveVote = this.saveVote.bind(this);
   }
 
